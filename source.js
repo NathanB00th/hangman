@@ -91,7 +91,7 @@ function guessLetter(letter) {
                     winLose = true;
                 } else {
                     guesses = guesses - 1;
-                    document.getElementById("guesses").innerHTML = guesses;
+                    document.getElementById("guesses").innerHTML = guesses + 1;
                     document.getElementById("picture").src = photos[guesses];
                 }
             }
