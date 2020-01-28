@@ -72,7 +72,6 @@ function guessLetter(letter) {
         var guessedLetter = letter.value;
         if (guessedLetters.includes(guessedLetter) == true) {
             document.getElementById("mistake").innerHTML = "Whoops, looks like you already guessed that letter!";
-            console.log("mistakes were made");
         } else {
             console.log("Letter not yet guessed");
             var includesGuess = word.includes(guessedLetter);
