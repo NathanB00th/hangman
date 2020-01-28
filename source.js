@@ -87,6 +87,7 @@ function guessLetter(letter) {
                     letterSpace = word;
                     document.getElementById("output").innerHTML = letterSpace;
                     document.getElementById("picture").src = photos[7];
+                    document.getElementById("guesses").innerHTML = 0;
                     winLose = true;
                 } else {
                     guesses = guesses - 1;
